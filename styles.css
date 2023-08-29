@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: seashell;
+}
+
+/*.....Desktop First(min-width.....*/
+.numero1{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: green;
+    margin-bottom: 2rem;
+}   
+@media (max-width: 1200px){
+    .numero1{
+        background-color: aquamarine;
+    }
+}
+@media (max-width: 1000px){
+    .numero1{
+        background-color: blue;
+    }
+}
+@media (max-width: 800px){
+    .numero1{
+        background-color: blueviolet;
+    }
+}
+@media (max-width: 500px){
+    .numero1{
+        background-color: brown;
+    }
+}
+@media (max-width: 350px){
+    .numero1{
+        background-color: red;
+    }
+}
+/*.....Mobile First(min-width.....*/
+.numero2{
+    width: 300px;
+    height: 300px;
+    border: 5px solid black;
+    background-color: blue;
+}
+@media (min-width: 350px){
+    .numero2{
+        background-color: green;
+    }
+}
+@media (min-width: 500px){
+    .numero2{
+        background-color: red
+    }
+}
+@media (min-width: 800px){
+    .numero2{
+        background-color: blueviolet;
+    }
+}
+@media (min-width: 1000px){
+    .numero2{
+        background-color: brown;
+    }
+}
+@media (min-width: 1200px){
+    .numero2{
+        background-color: black;
+    }
+}
+
+
+
+/*
+1)Explicar las vertientes o enfoques mas usados para el RWD
+
+Uno de los mas usados es Mobile First ya que se usa mas que nada en un enfoque de moviles
+como proyecto principal y Desktop First seria para lo que es paginas web de escritorio.
+
+
+4)Explicar los tipicos conflicots o problemas que se puede establecer 
+realizando RWD
+
+ Uno de los problemas q se pueden presentar son cuando se usa dos versiones como Mobile First y Desktop First
+para un solo elemento a la vez, se crean conflictos innecesarios.*/
