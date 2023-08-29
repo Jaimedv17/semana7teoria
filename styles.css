@@ -21,6 +21,8 @@ body{
 }
 @media (max-width: 1000px){
     .numero1{
+        width: 100px;
+        height: 100px;
         background-color: blue;
     }
 }
